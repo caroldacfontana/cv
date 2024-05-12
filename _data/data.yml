@@ -1,15 +1,13 @@
-name: John Doe
+name: Carol Fontana
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
+  email: caroldacfontana@gmail.com
   github: johndoe
   linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  phone: 55 27 99296-0695
 
 languages:
   - idiom: English
@@ -21,88 +19,75 @@ education:
     time: 2014-2016
     university: Ionian University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: Bachelors Degree in English (unfinished)
+    time: 2017 - 2018
+    university: Faculdade Saberes
 
 skills:
-  - category: Backend
+  - category: Databases
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
+      - Oracle
+      - SQL Server
+      - MongoDB
+  - category: Linux
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Bash
+      - Basic bash scripting
+  - category: IaC
+    skill:
+      - Vagrant
+  - category: Containers
     skill:
       - Docker
-      - Kubernetes 
-
+  - category: Cloud
+    skill:
+      - AWS
+      - OCI
+      - Google Cloud
+      
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  I'm a Data Science student working as a Junior DBA, with a primary focus on relational databases and cloud technologies. 
+  I'm currently expanding my studies mostly in Oracle, Infrastructure as Code and containerization. My current responsabilities include database
+  and server monitoring, maintenance and management.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: JR Database Admin (DBA)
+    time: 2023-Present
+    company: Globalsys
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Activies: 
+      -Database user management
+      -Data Pump Restore and Refresh (importing and exporting whole instances or specific objects)
+      -RMAN implementation and failure analysys
+      -Implementation of Oracle backup routines through bash scripting
+      -Oracle listener troubleshooting (lsnrctl)
+      -Basic Oracle Performance Tuning (analysis using oratop, oradebug, tkprof, execution plans, etc)
+      -Script execution within database environments
+      -Locks and Long queries analysis 
+      -SQL Server backups handling (DIFF, TLOG, FULL)
+      -SQL Server Restore and Refresh
+      -SQL Server analysis using Adam Machanic's procedure "sp_whoisactive"
+      -Tablespaces and datafiles management (resizing, configuration, etc) 
+      -High open_cursors and high processes troubleshooting in Oracle
+      -Experience in using ZABBIX as a database/server monitoring solution
+      -Experience in building database dashboards using Grafana
+      -Proficient in troubleshooting communication failures between Zabbix and proxy servers
+      -Daily usage of Oracle Linux commands and tools
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Oracle, SQL Server, Mysql, PostgreSQL, SAP, AWS, OCI, Linux, Oracle Linux, Windows, RoyalTS, MobaXTERM, SSMS, DBeaver, Zabbix, Grafana
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: English and Spanish language Teacher
+    time: JAN 2021 - NOV 2021
+    company: CCAA
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      I taught English and Spanish to classes ranging from children to adults, covering beginner to advanced levels.
     technologies_used: | 
       Python, Tensorflow, Keras, Matlab
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
 projects:
-  - title: Cool Project 
+  - title: Oracle 19c installation on an Oracle Virtual Box VM
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
-
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Tutorial where I demonstrate with screenshots and text how to install a 19c version Oracle database in a VM.
