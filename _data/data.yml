@@ -15,11 +15,11 @@ languages:
   - idiom: French
 
 education:
-  - degree: Data Science Associate Degree
+  - degree: Data Science A.S
     time: 2022 - Present
     university: Universidade de Vila Velha 
 
-  - degree: Bachelors Degree in English (unfinished)
+  - degree: B.A in English (unfinished)
     time: 2017 - 2018
     university: Faculdade Saberes
 
@@ -57,10 +57,10 @@ experience:
     time: 2023-Present
     company: Globalsys
     details: |
-      Activies: 
-      -Database user management
-      -Data Pump Restore and Refresh (importing and exporting whole instances or specific objects)
-      -RMAN implementation and failure analysys
+      Activies: <BR>
+      -Database user management<BR>
+      -Data Pump Restore and Refresh (importing and exporting whole instances or specific objects)<BR>
+      -RMAN implementation and failure analysys<BR>
       -Implementation of Oracle backup routines through bash scripting
       -Oracle listener troubleshooting (lsnrctl)
       -Basic Oracle Performance Tuning (analysis using oratop, oradebug, tkprof, execution plans, etc)
